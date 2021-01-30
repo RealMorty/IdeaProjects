@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global对象</title>
+    <script>
+        /**
+         * Global
+         * 1.特点：全局对象
+         * 2.方法：
+         *      encodeURL():url编码
+         *      decodeURL():url解码
+         *      encodeURLComponent():url编码
+         *      decodeURLComponent():url解码
+         *
+         *      parseInt():将字符串转为数字
+         *          * 逐一判断每一个字符是否是数字,直到不是数字为止,将前面的数据转为number.
+     *          isNaN():
+         *          * NaN六亲不认,连自己都不认,参与的==比较全为false
+         *          * 所以要用isNaN()判断
+     *          eval():将JS字符串转换为脚本执行
+         *
+         */
+        var str = "Morty大帝";//Morty%E5%A4%A7%E5%B8%9D
+        var encodeURI1 = encodeURI(str);
+        document.write(encodeURI1+"<br>");//Morty%E5%A4%A7%E5%B8%9D
+        document.write(decodeURI("Morty%E5%A4%A7%E5%B8%9D"))
+        document.write("<br>");
+
+
+        var str2 = "http://www.baidu.com?wd=Morty大帝";//Morty%E5%A4%A7%E5%B8%9D
+        var encodeURI2 = encodeURIComponent(str2);
+        document.write(encodeURI2+"<br>");//Morty%E5%A4%A7%E5%B8%9D
+        document.write(decodeURIComponent(encodeURI2));
+        document.write("<br>");
+
+        var str3 = "123sdfdw2334";
+        var number = parseInt(str3);
+        // alert(number);
+
+        var str4 = "ajdnv";
+        // document.write(isNaN(NaN));
+
+        var js = "alert(123)";
+        eval(js);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

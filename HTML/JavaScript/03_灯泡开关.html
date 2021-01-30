@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件绑定</title>
+
+
+</head>
+<body>
+    <img  id="ship" src="img/ship.jpg" width="300px" height="400px">
+
+    <script>
+        var id1 = document.getElementById("ship");
+        var flag = false;
+        id1.onclick = function() {
+            if (flag) {
+                id1.src = "img/street.jpg";
+                flag = false;
+            } else {
+                id1.src = "img/ship.jpg";
+                flag = true;
+            }
+
+        };
+    </script>
+
+</body>
+</html>

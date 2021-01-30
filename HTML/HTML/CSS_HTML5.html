@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础选择器</title>
+<!--    <link rel="stylesheet" href="css/a.css">-->
+    <style>
+        div p{
+            color: #7eff83;
+        }
+
+        div > p {
+            border: 1px solid;
+        }
+
+        input[type="text"] {
+            border: 5px solid;
+        }
+        input[type="password"] {
+            border: 5px solid;
+        }
+        a:link{
+            color: darkblue;
+        }
+        a:hover{
+            color: aqua;
+        }
+        a:active{
+            color: red;
+        }
+        a:visited{
+            color: forestgreen;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <p>程序员好牛逼</p>
+        程序员没老婆
+    </div>
+    <div>程序员头发少</div>
+    <p>程序员没老婆</p>
+
+    <input type="text">
+    <input type="password">
+    <br>
+    <a href="#">程序员没工作</a>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+</head>
+<body>
+    <img id="1" src="../img/banner_1.jpg" width="100%">
+</body>
+
+
+
+
+
+<script>
+    var number = 1;
+    function change() {
+        number ++;
+        var img = document.getElementById("1");
+        if (number%3===1) {
+            img.src = "../img/banner_1.jpg";
+        } else if (number%3===2) {
+            img.src = "../img/banner_2.jpg";
+        } else if (number%3===0) {
+            img.src = "../img/banner_3.jpg";
+        }
+    }
+    setInterval(change,2000);
+</script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function对象</title>
+    <script>
+        /*
+        Function对象
+        1.创建
+            1.var fun = new Function(形参列表，方法体);
+            2.function方法名称(形参列表){
+                方法体
+            }
+            3.var 方法名 = function() {
+
+            }
+
+        2.方法
+        3.属性
+            length代表形参的个数
+        4.特点
+
+        5.调用
+         */
+        var fun1 = new Function("a","b","c","alert(a);");
+        // //调用方法
+        // fun1(3,4);
+        // alert(fun1.length);
+        function fun2(a, b){
+            alert(a);
+        }
+        // fun2("sdfsdf",43);
+        var fun3 = function (a,b) {
+            alert(a+b);
+        };
+        // fun3(44,2);
+        // fun2(12);
+
+        function add (){
+            alert(arguments[0]);
+            alert(arguments[1]);
+        }
+        // var sum = add(1,2);
+        // alert(sum);
+        add(1,3);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

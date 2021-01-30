@@ -1,0 +1,11 @@
+<?xml version='1.0' ?>
+<?xml-stylesheet type="text/css" href="a.css" ?>
+<users>
+
+    <user id='1'>
+        <name>Morty</name>
+        <age>23</age>
+        <gender>male</gender>
+        <br/>
+    </user>
+</users>

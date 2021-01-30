@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格全选</title>
+    <style>
+        table{
+            border: 1px solid;
+            width: 500px;
+            margin-left: 30%;
+            margin-top: 10px;
+        }
+
+        td,th{
+            text-align: center;
+            border: 1px solid;
+        }
+        div{
+            /*margin-top: 10px;*/
+            margin-left: 30%;
+        }
+        .div_button{
+            margin-top: 10px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div>
+    <input type="text" id="id" placeholder="请输入编号">
+    <input type="text" id="name"  placeholder="请输入姓名">
+    <input type="text" id="gender"  placeholder="请输入性别">
+    <input type="button" value="添加" id="btn_add">
+</div>
+
+<table>
+    <caption>英雄信息表</caption>
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <th><input type="checkbox" id="chooseAll"></th>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>1</td>
+        <td>令狐冲</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>2</td>
+        <td>任我行</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+    <tr onmouseover=changeColor(this) onmouseleave=reColor(this)>
+        <td><input type="checkbox" ></td>
+        <td>3</td>
+        <td>岳不群</td>
+        <td>?</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+
+</table>
+<div class="div_button">
+    <input type="button" id="selectAll" value="全选">
+    <input type="button" id="unSelectAll" value="全不选">
+    <input type="button" id="selectRev" value="反选">
+</div>
+</body>
+<script>
+
+    function changeColor(obj) {
+        obj.style.backgroundColor = "black";
+        obj.style.color = "white";
+    }
+
+    function reColor(obj) {
+        obj.style.backgroundColor = "white";
+        obj.style.color = 'black';
+    }
+    function delTr(obj) {
+        var table = obj.parentNode.parentNode.parentNode;
+        var tr = obj.parentNode.parentNode;
+        table.removeChild(tr);
+    }
+
+    window.onload = function (){
+        var btn_add = document.getElementById("btn_add");
+        btn_add.onclick = function () {
+            var id = document.getElementById("id").value;
+            var name = document.getElementById("name").value;
+            var gender = document.getElementById("gender").value;
+            var table = document.getElementsByTagName("table")[0];
+            table.innerHTML += "<tr onmouseover=changeColor(this) onmouseleave=reColor(this)>\n" +
+                "<td><input type=\"checkbox\"></td>" +
+                "        <td>" + id + "</td>\n" +
+                "        <td>" + name + "</td>\n" +
+                "        <td>" + gender + "</td>\n" +
+                "        <td><a href=\"javascript:void(0);\" onclick=\"delTr(this);\">删除</a></td>\n" +
+                "    </tr>";
+        }
+
+
+
+
+        var chooseAll = document.getElementById("chooseAll");
+        chooseAll.onclick = function () {
+            var input = document.getElementsByTagName("input");
+            for (i = 0; i < input.length; i++) {
+                if (input[i].type === "checkbox" && input[i].id !== "chooseAll") {
+                    input[i].checked = chooseAll.checked;
+                }
+            }
+        }
+
+        var selectAll = document.getElementById("selectAll");
+        selectAll.onclick = function () {
+            var input = document.getElementsByTagName("input");
+            for (i = 0; i < input.length; i++) {
+                if (input[i].type === "checkbox") {
+                    input[i].checked = true;
+                }
+            }
+        }
+        var unSelectAll = document.getElementById("unSelectAll");
+        unSelectAll.onclick = function () {
+            var input = document.getElementsByTagName("input");
+            for (i = 0; i < input.length; i++) {
+                if (input[i].type === "checkbox") {
+                    input[i].checked = false;
+                }
+            }
+        }
+        var selectRev = document.getElementById("selectRev");
+        selectRev.onclick = function () {
+            var input = document.getElementsByTagName("input");
+            for (i = 0; i < input.length; i++) {
+                if (input[i].type === "checkbox" && input[i].id !== "chooseAll") {
+                    if (input[i].checked) {
+                        input[i].checked = false;
+                    } else {
+                        input[i].checked = true;
+                    }
+                }
+            }
+        }
+
+    }
+
+</script>
+</html>

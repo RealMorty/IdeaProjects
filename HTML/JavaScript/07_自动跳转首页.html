@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转首页</title>
+    <style>
+        p {
+            text-align: center;
+        }
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span id="time">5</span>秒后自动跳转至首页...
+    </p>
+</body>
+    <script>
+        var timeId = document.getElementById("time");
+        var time = 5;
+        function sec() {
+            time--;
+            if (time <= 0) {
+                location.href = "https://www.bilibili.com";
+                clearInterval();
+            }
+            timeId.innerHTML = time;
+        }
+        setInterval(sec,1000);
+    </script>
+</html>

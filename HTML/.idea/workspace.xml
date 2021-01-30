@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="demo1:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f836a7a0-1f81-44c6-8e1f-0779a4293f6a" name="Default Changelist" comment="1-6">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/HTML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/01BootstrapTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/02栅格系统.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/03CSS样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/03CSS样式2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/Bootstray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstray/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/HTML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/JavaScript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/JavaScript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/TOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/extend.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/misc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tile-wide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML11.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML3.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML4.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML5.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_HTML6.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_HTML6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_font.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/CSS_font.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Case1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/05_轮播图.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/05_轮播图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/16_表格全选.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/16_表格全选.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_website.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Travel_website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/列表标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/列表标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图片标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/图片标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/块标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/块标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文本标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/文本标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/表单标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/表单标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/表格标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/链接标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/链接标签.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1m88e6NoqwlwF7Za7etXA92qaGT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../canvas-special" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16089614" />
+    <property name="project.structure.side.proportion" value="0.19064748" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Morty\IdeaProjects\HTML\Bootstray" />
+      <recent name="C:\Users\Morty\IdeaProjects\HTML\Bootstray\js" />
+      <recent name="C:\Users\Morty\IdeaProjects\HTML\JavaScript\img" />
+      <recent name="C:\Users\Morty\IdeaProjects\HTML\JavaScript" />
+      <recent name="C:\Users\Morty\IdeaProjects\HTML\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Morty\IdeaProjects\HTML\HTML" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.16_表格全选.html">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01BootstrapTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/Bootstray/01BootstrapTest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="03CSS样式2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/Bootstray/03CSS样式2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="05_轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tomcat/JavaScript/05_轮播图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="16_表格全选.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tomcat/JavaScript/16_表格全选.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="HTML_Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="HTML_Test" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.411" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Tomcat" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="Tomcat:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Tomcat" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a7b82246-727f-4ceb-bc8d-81192bd014aa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10436" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Tomcat:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a7b82246-727f-4ceb-bc8d-81192bd014aa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10436" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.01BootstrapTest.html" />
+      <item itemvalue="JavaScript Debug.03CSS样式2.html" />
+      <item itemvalue="JavaScript Debug.05_轮播图.html" />
+      <item itemvalue="JavaScript Debug.16_表格全选.html" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.16_表格全选.html" />
+        <item itemvalue="JavaScript Debug.05_轮播图.html" />
+        <item itemvalue="Tomcat Server.Tomcat" />
+        <item itemvalue="JavaScript Debug.01BootstrapTest.html" />
+        <item itemvalue="JavaScript Debug.03CSS样式2.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f836a7a0-1f81-44c6-8e1f-0779a4293f6a" name="Default Changelist" comment="" />
+      <created>1608863952736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608863952736</updated>
+      <workItem from="1608863953841" duration="1489000" />
+      <workItem from="1608879372418" duration="12570000" />
+      <workItem from="1608987688873" duration="3387000" />
+      <workItem from="1608995819706" duration="7410000" />
+      <workItem from="1609045948940" duration="4609000" />
+      <workItem from="1609244340544" duration="8079000" />
+      <workItem from="1609296114880" duration="19281000" />
+      <workItem from="1609326022651" duration="152000" />
+      <workItem from="1609396946414" duration="533000" />
+      <workItem from="1609397528902" duration="5049000" />
+      <workItem from="1609563636950" duration="7084000" />
+      <workItem from="1609724698463" duration="103000" />
+      <workItem from="1609815916611" duration="1227000" />
+      <workItem from="1609831930855" duration="38443000" />
+      <workItem from="1609920589383" duration="40000" />
+      <workItem from="1609927886664" duration="981000" />
+      <workItem from="1609982284524" duration="7260000" />
+      <workItem from="1611831808138" duration="1313000" />
+      <workItem from="1611835732658" duration="1954000" />
+      <workItem from="1611837716095" duration="122000" />
+      <workItem from="1611837986249" duration="708000" />
+      <workItem from="1611838712154" duration="664000" />
+      <workItem from="1611883344265" duration="1607000" />
+      <workItem from="1611884971986" duration="36000" />
+      <workItem from="1611885019973" duration="1001000" />
+      <workItem from="1611886236253" duration="66000" />
+      <workItem from="1611886314370" duration="73000" />
+      <workItem from="1611886417348" duration="774000" />
+      <workItem from="1611924180225" duration="247000" />
+      <workItem from="1611925897587" duration="887000" />
+      <workItem from="1611969739269" duration="645000" />
+    </task>
+    <task id="LOCAL-00001" summary="12-30">
+      <created>1609326145079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609326145079</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1-2">
+      <created>1609583821009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609583821009</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1-5">
+      <created>1609853106235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609853106236</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1-6">
+      <created>1609918795808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609918795808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="12-30" />
+    <MESSAGE value="1-2" />
+    <MESSAGE value="1-5" />
+    <MESSAGE value="1-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-6" />
+  </component>
+</project>

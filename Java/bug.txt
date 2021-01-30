@@ -1,0 +1,13 @@
+add方法出异常
+异常名称：ArithmeticException
+异常的原因：/ by zero
+--------------------------------
+division方法出异常
+异常名称：ArithmeticException
+异常的原因：/ by zero
+--------------------------------
+sub方法出异常
+异常名称：ArithmeticException
+异常的原因：/ by zero
+--------------------------------
+共出现3次异常
