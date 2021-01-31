@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Servlet_case" />
+        <module name="Response" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Response" target="1.8" />
       <module name="Servlet_case" target="1.8" />
       <module name="Servlet_Http_Request" target="1.8" />
     </bytecodeTargetLevel>

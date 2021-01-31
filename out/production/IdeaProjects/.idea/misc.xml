@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Response" />
     <file type="web" url="file://$PROJECT_DIR$/Servlet_case" />
   </component>
   <component name="MavenProjectsManager">
@@ -8,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/Servlet_Http_Request/pom.xml" />
         <option value="$PROJECT_DIR$/Servlet_case/pom.xml" />
+        <option value="$PROJECT_DIR$/Response/pom.xml" />
       </list>
     </option>
   </component>

@@ -15,6 +15,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/out/production/Tomcat/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web2">
@@ -25,6 +26,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/out/artifacts/Tomcat_war_exploded" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="Web5">
@@ -46,6 +48,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/out/artifacts/Tomcat_war_exploded/WEB-INF/classes/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>

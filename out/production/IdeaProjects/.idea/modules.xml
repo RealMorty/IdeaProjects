@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Response/Response.iml" filepath="$PROJECT_DIR$/Response/Response.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet/Servlet.iml" filepath="$PROJECT_DIR$/Servlet/Servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet_case/Servlet_case.iml" filepath="$PROJECT_DIR$/Servlet_case/Servlet_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleStart/SimpleStart.iml" filepath="$PROJECT_DIR$/SimpleStart/SimpleStart.iml" />
