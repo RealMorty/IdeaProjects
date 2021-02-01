@@ -4,17 +4,31 @@ import com.hust.cqb.BookTest.Test3Equals.Employee;
 import com.hust.cqb.BookTest.Test3Equals.EqualsTest;
 
 import java.text.DateFormatSymbols;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 public class Scratch {
     public static void main(String[] args) {
 //        long starttime = System.currentTimeMillis();
-        demo06();
+        demo07();
 //        long endtime = System.currentTimeMillis();
 //        System.out.println(endtime-starttime);
+    }
+
+    private static void demo07() {
+            Map<String,String> map = new HashMap<String, String>();
+
+            map.put("xiaocui1","gongchen");
+            map.put("xiaocui3","daima");
+            map.put("xiaocui3","daima");
+            map.put("xiaocui4","dagong");
+
+            System.out.println(map.keySet());
+        System.out.println(map.get("xiaocui1"));
+
+            System.out.println("-----分割线-----");
+            for(String map1 : map.keySet()){
+                System.out.println(map1);
+            }
     }
 
     private static void demo06() {

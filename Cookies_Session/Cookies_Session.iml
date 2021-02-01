@@ -46,5 +46,32 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.411" level="application_server_libraries" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/druid-1.0.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/commons-logging-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/mchange-commons-java-0.2.12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../CheckCodeCase/webapp/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../CheckCodeCase/webapp/WEB-INF/lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

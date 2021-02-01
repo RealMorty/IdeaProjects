@@ -9,9 +9,11 @@
         <module name="Servlet_case" />
         <module name="Response" />
         <module name="Cookies_Session" />
+        <module name="CheckCodeCase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CheckCodeCase" target="1.8" />
       <module name="Cookies_Session" target="1.8" />
       <module name="Response" target="1.8" />
       <module name="Servlet_case" target="1.8" />
