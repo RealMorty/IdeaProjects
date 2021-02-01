@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+    <script>
+        window.onload = function(){
+            //1.获取图片对象
+            var img = document.getElementById("checkCode");
+            img.onclick=function () {
+                //加时间戳永不重复
+                var time = new Date().getTime();
+                img.src = "/Response/CheckCodeServlet?"+time;
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <img id="checkCode" src="/Response/CheckCodeServlet" />
+    <a id="change" href="">看不清?换一张</a>
+</body>
+</html>

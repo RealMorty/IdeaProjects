@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Servlet_case" />
         <module name="Response" />
+        <module name="Cookies_Session" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Cookies_Session" target="1.8" />
       <module name="Response" target="1.8" />
       <module name="Servlet_case" target="1.8" />
       <module name="Servlet_Http_Request" target="1.8" />
