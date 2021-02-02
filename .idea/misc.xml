@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/CheckCodeCase" />
     <file type="web" url="file://$PROJECT_DIR$/Cookies_Session" />
+    <file type="web" url="file://$PROJECT_DIR$/EL_JSTL" />
     <file type="web" url="file://$PROJECT_DIR$/Response" />
     <file type="web" url="file://$PROJECT_DIR$/Servlet_case" />
   </component>
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/Response/pom.xml" />
         <option value="$PROJECT_DIR$/Cookies_Session/pom.xml" />
         <option value="$PROJECT_DIR$/CheckCodeCase/pom.xml" />
+        <option value="$PROJECT_DIR$/EL_JSTL/pom.xml" />
       </list>
     </option>
   </component>
