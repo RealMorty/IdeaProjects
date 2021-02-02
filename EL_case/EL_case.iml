@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/webapp" relative="/" />
         </webroots>
-        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -39,6 +38,5 @@
         <jarDirectory url="file://$MODULE_DIR$/webapp/WEB-INF/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>

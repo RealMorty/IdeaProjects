@@ -89,8 +89,11 @@
         </div>
 
     </form>
-        <div id="error1"><%=request.getSession().getAttribute("errorReason1")==null?"":"验证码输入错误"%></div>
-        <div id="error2"><%=request.getSession().getAttribute("errorReason2")==null?"":"用户名或密码输入错误"%></div>
+        ${requestScope.errorReason1}
+        ${requestScope.errorReason2}
+
+<%--        <div id="error1"><%=request.getSession().getAttribute("errorReason1")==null?"":"验证码输入错误"%></div>--%>
+<%--        <div id="error2"><%=request.getSession().getAttribute("errorReason2")==null?"":"用户名或密码输入错误"%></div>--%>
     </div>
 
 </body>

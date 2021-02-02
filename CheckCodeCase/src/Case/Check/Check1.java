@@ -29,7 +29,7 @@ public class Check1 extends HttpServlet {
         String s1 = (String) session.getAttribute("checkcode");
         session.removeAttribute("checkcode");
         if (s1==null || !s1.equalsIgnoreCase(login_inf.get("checkcode")[0])) {
-            session.setAttribute("errorReason1","验证码输入错误");
+            request.setAttribute("errorReason1","验证码输入错误");
 //            request.getRequestDispatcher("/Fail.jsp").forward(request, response);
             request.getRequestDispatcher("/Login.jsp").forward(request, response);
         }
@@ -50,7 +50,7 @@ public class Check1 extends HttpServlet {
 
 
         if (user == null) {
-            session.setAttribute("errorReason2","用户名或密码输入错误");
+            request.setAttribute("errorReason2","用户名或密码输入错误");
             request.getRequestDispatcher("/Login.jsp").forward(request,response);
         } else {
             session.setAttribute("user", user.getUsername());
