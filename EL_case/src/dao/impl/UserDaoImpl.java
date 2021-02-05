@@ -1,12 +1,11 @@
 package dao.impl;
 
 import dao.UserDao;
-import domian.User;
+import domain.User;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import util.JDBCUtils;
 
-import javax.sql.DataSource;
 import java.util.List;
 
 public class UserDaoImpl implements UserDao {

@@ -1,8 +1,8 @@
 package web.servlet;
 
-import domian.User;
+import domain.User;
 import service.UserService;
-import service.impl.UserServiceImpl;
+import service.UserServiceImpl;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

@@ -1,8 +1,8 @@
-package service.impl;
+package service;
 
 import dao.UserDao;
 import dao.impl.UserDaoImpl;
-import domian.User;
+import domain.User;
 import service.UserService;
 
 import java.util.List;
