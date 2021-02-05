@@ -1,6 +1,6 @@
 package service;
 
-import domian.User;
+import domain.User;
 
 import java.util.List;
 

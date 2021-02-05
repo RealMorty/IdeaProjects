@@ -51,14 +51,21 @@
                 <td>${user.address}</td>
                 <td>${user.qq}</td>
                 <td>${user.email}</td>
-                <td><a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;<a class="btn btn-default btn-sm" href="">删除</a></td>
+                <td>
+                    <a class="btn btn-default btn-sm" href="update.html">修改</a>&nbsp;
+                    <a class="btn btn-default btn-sm" href="">删除</a>
+                </td>
             </tr>
         </c:forEach>
 
-
         <tr>
-            <td colspan="8" align="center"><a class="btn btn-primary" href="add.html">添加联系人</a></td>
+            <td colspan="8" align="center">
+                <a class="btn btn-primary" href="add.html">
+                    添加联系人
+                </a>
+            </td>
         </tr>
+
     </table>
 </div>
 </body>

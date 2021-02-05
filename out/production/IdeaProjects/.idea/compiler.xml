@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Servlet_case" />
         <module name="Response" />
         <module name="Cookies_Session" />
         <module name="CheckCodeCase" />
         <module name="EL_JSTL" />
+        <module name="Servlet_case" />
+        <module name="EL_demo" />
         <module name="EL_case" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="CheckCodeCase" target="1.8" />
       <module name="Cookies_Session" target="1.8" />
       <module name="EL_case" target="1.8" />
+      <module name="EL_demo" target="1.8" />
       <module name="EL_JSTL" target="1.8" />
       <module name="Response" target="1.8" />
       <module name="Servlet_case" target="1.8" />
