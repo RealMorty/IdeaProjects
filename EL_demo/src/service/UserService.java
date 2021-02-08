@@ -1,8 +1,10 @@
 package service;
 
+import domain.PageBean;
 import domain.User;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
     /**
@@ -10,11 +12,15 @@ public interface UserService {
      */
     public List<User> findAll();
 
-    public void addUser(User user);
+    void addUser(User user);
 
-    public void deleteUser(Integer id);
+    void deleteUser(Integer id);
 
-    public void updateUser(User user, Integer id);
+    void updateUser(User user, Integer id);
 
-    public User queryUser(Integer id);
+    User queryUserById(Integer id);
+
+    void delSelectedUsers(String[] checkBoxIds);
+
+    PageBean<User> currentPageBean(Integer currentPage, Integer rows, Map<String,String[]> condition);
 }

@@ -17,6 +17,7 @@ public class UserUpdateServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
         Map<String, String[]> updateUser = request.getParameterMap();
         User updatedUser = new User();
         try {
@@ -25,11 +26,10 @@ public class UserUpdateServlet extends HttpServlet {
             e.printStackTrace();
         }
         HttpSession session = request.getSession();
-        new UserServiceImpl().updateUser(updatedUser,(int) session.getAttribute("queryId"));
-        session.removeAttribute("queryId");
-        request.getRequestDispatcher("/UserListServlet").forward(request,response);
 
+        new UserServiceImpl().updateUser(updatedUser, (int) session.getAttribute("UpdateUserId"));
 
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
     }
 
     @Override

@@ -7,8 +7,11 @@ import java.util.Map;
 
 public interface UserDao {
     public List<User> findAll();
-    public void addUser(User user);
-    public void deleteUser(Integer id);
-    public void updateUser(User user, Integer id);
-    public User queryUser(Integer id);
+    void addUser(User user);
+    void deleteUser(Integer id);
+    void updateUser(User user, Integer id);
+    User queryUserById(Integer id);
+    Integer findTotalCount(Map<String, String[]> condition);
+    List<User> findListByPage(int startPage, int rows, Map<String, String[]> condition);
+
 }

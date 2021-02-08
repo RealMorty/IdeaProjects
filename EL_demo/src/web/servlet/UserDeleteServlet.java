@@ -16,7 +16,7 @@ public class UserDeleteServlet extends HttpServlet {
         new UserServiceImpl().deleteUser(id);
 
 //        System.out.println(request.getParameter("id"));
-        request.getRequestDispatcher("/UserListServlet").forward(request,response);
+        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
     }
 
     @Override

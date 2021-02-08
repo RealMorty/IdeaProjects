@@ -1,7 +1,6 @@
 package web.servlet;
 
-import domain.RootUser;
-import org.apache.commons.beanutils.BeanUtils;
+import service.impl.AdminServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
 @WebServlet("/CheckCodeServlet")
@@ -31,14 +29,10 @@ public class CheckCodeServlet extends HttpServlet {
         }
 
         //再判断用户名和密码是否正确
-        RootUser loginUser = new RootUser();
-        try {
-            BeanUtils.populate(loginUser,login_inf);
-        } catch (IllegalAccessException | InvocationTargetException e) {
-            e.printStackTrace();
-        }
+        Boolean checkAdmin = new AdminServiceImpl().checkAdmin(login_inf.get("username")[0],
+                                                                login_inf.get("password")[0]);
 
-        if (!loginUser.getUsername().equals("root") || !loginUser.getPassword().equals("root")) {
+        if (!checkAdmin) {
             request.setAttribute("errorReason2","用户名或密码输入错误");
             request.getRequestDispatcher("/login.jsp").forward(request,response);
         } else {

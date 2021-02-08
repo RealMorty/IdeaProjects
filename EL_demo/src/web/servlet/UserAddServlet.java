@@ -33,7 +33,7 @@ public class UserAddServlet extends HttpServlet {
             request.getRequestDispatcher("/add.jsp").forward(request,response);
         } else {
             new UserServiceImpl().addUser(addUser);
-            response.sendRedirect("/EL_demo/UserListServlet");
+            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
 
         }
 
