@@ -12,7 +12,6 @@
         <module name="EL_JSTL" />
         <module name="Servlet_case" />
         <module name="EL_demo" />
-        <module name="EL_case" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
