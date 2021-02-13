@@ -18,8 +18,11 @@
 </head>
 <body>
 <div align="center">
+    <h1 style="text-decoration:none;font-size:33px;color: #23527C">
+        ${sessionScope.rootUser.username}，欢迎您！
+    </h1>
     <a href="${pageContext.request.contextPath}/findUserByPageServlet" style="text-decoration:none;font-size:33px">
-        查询所有用户信息
+        查询所有用户信息>>>
     </a>
 </div>
 </body>

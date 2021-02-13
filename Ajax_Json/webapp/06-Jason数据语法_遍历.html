@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jason</title>
+    <script>
+        var person = {
+            "name": "morty",
+            age: 23,
+            'gender': true
+        };
+        var ps = [
+            {"name": "morty1", "age": 23, "gender": true},
+            {"name": "morty2", "age": 22, "gender": true},
+            {"name": "morty3", "age": 25, "gender": false}
+        ];
+
+        // for (var key in person){
+        //     alert(key+":"+person[key]);
+        // }
+        for (var i = 0; i < ps.length; i++) {
+            var p = ps[i];
+            for (var key in p) {
+                alert(key + ":" + p[key]);
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

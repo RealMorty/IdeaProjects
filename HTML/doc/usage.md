@@ -16,7 +16,7 @@ Cool, right? _It is_. That said, the smart defaults, baseline elements, default
 attribute values and various other utilities that HTML5 Boilerplate offers can
 serve as the foundation for whatever you're interested in building.
 
-Even the basic use-case of a simple static site can be enhanced by manipulating
+Even the basic use-Case of a simple static site can be enhanced by manipulating
 the code through an automated build process. Moving up in complexity HTML5
 Boilerplate can be integrated with whatever front-end framework, CMS or
 e-commerce platform you're working with. Mix-and-match to your heart's content.

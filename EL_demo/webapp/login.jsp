@@ -68,6 +68,13 @@
 				<strong>${requestScope.errorReason2}</strong>
 			</div>
 		</c:if>
+		<c:if test="${requestScope.errorReason3!=null}">
+			<div class="alert alert-warning alert-dismissible" role="alert">
+				<button type="button" class="close" data-dismiss="alert" >
+					<span>&times;</span></button>
+				<strong>${requestScope.errorReason3}</strong>
+			</div>
+		</c:if>
 
   	</div>
   </body>

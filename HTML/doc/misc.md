@@ -198,6 +198,6 @@ if you're interested. The fields we provide are as follows:
   field if there's more than one author.
 * `license` - the license for your application. Must conform to
   [specific rules](https://docs.npmjs.com/files/package.json#license)
-* `devDependencies` - development dependencies for your package. In our case
+* `devDependencies` - development dependencies for your package. In our Case
   it's a single dependency, Parcel, which we use to bundle files and run a
   simple web server.

@@ -165,7 +165,7 @@
   };
 
   // Return all the elements that pass a truth test.
-  // Delegates to **ECMAScript 5**'s native `filter` if available.
+  // Delegates to **ECMAScript 5**'s native `web.filter` if available.
   // Aliased as `select`.
   _.filter = _.select = function(obj, predicate, context) {
     var results = [];
@@ -236,7 +236,7 @@
     return _.map(obj, _.property(key));
   };
 
-  // Convenience version of a common use case of `filter`: selecting only objects
+  // Convenience version of a common use case of `web.filter`: selecting only objects
   // containing specific `key:value` pairs.
   _.where = function(obj, attrs) {
     return _.filter(obj, _.matches(attrs));

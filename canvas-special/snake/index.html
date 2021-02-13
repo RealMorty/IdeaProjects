@@ -99,16 +99,16 @@
 
             //设置蛇头的运动方向，37 左，38 上，39 右，40 下
             switch (this.direction) {
-                case 37:
+                Case 37:
                     this.head.x -= this.head.w
                     break;
-                case 38:
+                Case 38:
                     this.head.y -= this.head.h
                     break;
-                case 39:
+                Case 39:
                     this.head.x += this.head.w
                     break;
-                case 40:
+                Case 40:
                     this.head.y += this.head.h
                     break;
                 default:
@@ -148,28 +148,28 @@
         document.onkeydown = function(e) {
             var ev = e || window.event;
             switch (ev.keyCode) {
-                case 37:
+                Case 37:
                     {
                         if (snake.direction !== 39) {
                             snake.direction = 37;
                         }
                         break;
                     }
-                case 38:
+                Case 38:
                     {
                         if (snake.direction !== 40) {
                             snake.direction = 38;
                         }
                         break;
                     }
-                case 39:
+                Case 39:
                     {
                         if (snake.direction !== 37) {
                             snake.direction = 39;
                         }
                         break;
                     }
-                case 40:
+                Case 40:
                     {
                         if (snake.direction !== 38) {
                             snake.direction = 40;

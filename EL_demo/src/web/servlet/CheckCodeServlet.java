@@ -1,5 +1,7 @@
 package web.servlet;
 
+import domain.RootUser;
+import org.apache.commons.beanutils.BeanUtils;
 import service.impl.AdminServiceImpl;
 
 import javax.servlet.ServletException;
@@ -9,15 +11,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
 @WebServlet("/CheckCodeServlet")
 public class CheckCodeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        System.out.println(request);
         request.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=utf-8");
         Map<String, String[]> login_inf = request.getParameterMap();
+        RootUser rootUser = new RootUser();
+
+        try {
+            BeanUtils.populate(rootUser, login_inf);
+        } catch (IllegalAccessException | InvocationTargetException e) {
+            e.printStackTrace();
+        }
 
         //首先检查验证码
         HttpSession session = request.getSession();
@@ -36,7 +47,8 @@ public class CheckCodeServlet extends HttpServlet {
             request.setAttribute("errorReason2","用户名或密码输入错误");
             request.getRequestDispatcher("/login.jsp").forward(request,response);
         } else {
-            request.getRequestDispatcher("/index.jsp").forward(request,response);
+            session.setAttribute("rootUser",rootUser);
+            response.sendRedirect(request.getContextPath()+"/index.jsp");
         }
 
 

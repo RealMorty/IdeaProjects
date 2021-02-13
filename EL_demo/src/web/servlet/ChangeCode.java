@@ -19,18 +19,20 @@ public class ChangeCode extends HttpServlet {
         //创建一个对象，在内存中图片（验证码图片对象）
         int width = 80;
         int height = 32;
+        int fontsize = height/2;
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
         //美化图片
         //1.填充背景色
         Graphics g = image.getGraphics();
-        g.setColor(Color.getColor("#FFFFFF"));
+        g.setColor(Color.white);
         g.fillRoundRect(0,0,width,height,4,4);
         //2.画边框
-        g.setColor(Color.black);
+        g.setColor(Color.white);
         g.drawRoundRect(0,0,width-1,height-1,4,4);
         //3.写验证码
         g.setColor(Color.black);
+        g.setFont(new Font("Berlin Sans FB", Font.BOLD, fontsize));
         String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
         Random ran = new Random();
 
@@ -41,7 +43,7 @@ public class ChangeCode extends HttpServlet {
             int index = ran.nextInt(str.length());
             char ch = str.charAt(index);
             checkcode_char[i-1] =  ch;
-            g.drawString(ch+" ",width/5*i,height/2);
+            g.drawString(ch+" ",width/5*i,height/2+fontsize/3);
         }
 
         String checkcode = new String(checkcode_char);
@@ -49,7 +51,7 @@ public class ChangeCode extends HttpServlet {
         session.setAttribute("verifycode",checkcode);
 //        System.out.println(checkcode);
         //画干扰线
-        g.setColor(Color.getColor("#CCCCCC"));
+        g.setColor(Color.ORANGE);
 //        g.drawLine(1,1,30,30);
         //随机生成坐标点
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jason</title>
+    <script>
+        var person = {"name":"morty",
+                      age:23,
+                      'gender':true};
+        var name = person["name"];
+        // var name = person.name;
+        // alert(name);
+        // alert(person);
+        var persons = {
+            "persons": [
+                {"name": "morty1", "age": 23, "gender": true},
+                {"name": "morty2", "age": 22, "gender": true},
+                {"name": "morty3", "age": 25, "gender": false}
+                ]
+        };
+        var name1 = persons.persons[2].name;
+        // alert(name1);
+        // alert(persons);
+        var ps = [
+            {"name": "morty1", "age": 23, "gender": true},
+            {"name": "morty2", "age": 22, "gender": true},
+            {"name": "morty3", "age": 25, "gender": false}
+        ];
+        alert(ps[1].name);
+        // alert(ps);
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

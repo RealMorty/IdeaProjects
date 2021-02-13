@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生js</title>
+    <script>
+        function fun() {
+            //发布异步请求
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.open("GET","ajaxServlet?username=Morty",true);
+            xmlhttp.send();
+
+            //当xmlhttp就绪状态改变时触发事件
+            xmlhttp.onreadystatechange=function()
+            {
+                //判断就绪状态是否为4，请求已完成，并且响应已就绪，
+                //200-->成功响应
+                if (xmlhttp.readyState===4 && xmlhttp.status===200)
+                {
+                    var responseText = xmlhttp.responseText;
+                    alert(responseText);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="发布异步请求" onclick="fun();">
+<input type="text">
+</body>
+</html>

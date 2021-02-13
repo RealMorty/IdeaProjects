@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery</title>
+    <script src="js/jQuery.mini.js"></script>
+    <script>
+        function fun() {
+            $.ajax({
+                url:"ajaxServlet",
+                type:"POST",
+                // data:"username=morty&age=23",
+                data:{"username":"morty", "age":23},
+                success:function(data){
+                    alert(data);
+                },
+                error:function () {
+                    alert("error!")
+                },
+                dataType:"text"
+            });
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="发布异步请求" onclick="fun();">
+<input type="text">
+</body>
+</html>
