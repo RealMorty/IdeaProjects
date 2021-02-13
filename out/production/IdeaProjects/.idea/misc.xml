@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Ajax_Json" />
+    <file type="web" url="file://$PROJECT_DIR$/CheckCodeCase" />
+    <file type="web" url="file://$PROJECT_DIR$/Cookies_Session" />
+    <file type="web" url="file://$PROJECT_DIR$/EL_case" />
+    <file type="web" url="file://$PROJECT_DIR$/EL_demo" />
+    <file type="web" url="file://$PROJECT_DIR$/EL_JSTL" />
+    <file type="web" url="file://$PROJECT_DIR$/Filter" />
+    <file type="web" url="file://$PROJECT_DIR$/jQuery" />
+    <file type="web" url="file://$PROJECT_DIR$/Response" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlet_case" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Servlet_Http_Request/pom.xml" />
+        <option value="$PROJECT_DIR$/Servlet_case/pom.xml" />
+        <option value="$PROJECT_DIR$/Response/pom.xml" />
+        <option value="$PROJECT_DIR$/Cookies_Session/pom.xml" />
+        <option value="$PROJECT_DIR$/CheckCodeCase/pom.xml" />
+        <option value="$PROJECT_DIR$/EL_JSTL/pom.xml" />
+        <option value="$PROJECT_DIR$/EL_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Filter/pom.xml" />
+        <option value="$PROJECT_DIR$/Ajax_Json/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../js/jQuery.mini.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+           $("#btn").on("click", function () {
+               alert("已绑定");
+           });
+           $("#btn2").on("click", function () {
+               // $("#btn").off("click");
+               $("#btn").off();
+               alert("已解绑");
+           });
+        });
+
+    </script>
+</head>
+<body>
+<input id="btn" type="button" value="使用on绑定点击事件">
+<input id="btn2" type="button" value="使用off解绑点击事件">
+</body>
+</html>

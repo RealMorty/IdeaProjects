@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+	<student number="heima_0001">
+		<name id="zhangsan">zhangsan</name>
+		<age>28</age>
+		<sex>female</sex>
+	</student>
+
+	<student number="heima_0002">
+		<name>Morty</name>
+		<age>45</age>
+		<sex>male</sex>
+	</student>
+
+
+</students>
+
+
+<!--<!DOCTYPE students [
+
+		<!ELEMENT students (student+) >
+		<!ELEMENT student (name,age,sex)>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT age (#PCDATA)>
+		<!ELEMENT sex (#PCDATA)>
+		<!ATTLIST student number ID #REQUIRED>
+
+
+		]>-->
+<!--<students>-->
+
+<!--	<student number="s001">-->
+<!--		<name>zhangsan</name>-->
+<!--		<age>abc</age>-->
+<!--		<sex>hehe</sex>-->
+<!--	</student>-->
+
+<!--	<student number="s002">-->
+<!--		<name>lisi</name>-->
+<!--		<age>24</age>-->
+<!--		<sex>female</sex>-->
+<!--	</student>-->
+
+<!--</students>-->
