@@ -9,6 +9,9 @@
     </properties>
     <root id="archive" name="jQuery-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="jQuery:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib" />
+      </element>
     </root>
   </artifact>
 </component>

@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet("/web.servlet.demo1")
+@WebServlet("/web.web.servlet.demo1")
 public class demo1 implements Servlet {
 
     @Override
@@ -19,7 +19,7 @@ public class demo1 implements Servlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        System.out.println("web.servlet.demo1");
+        System.out.println("web.web.servlet.demo1");
     }
 
     @Override

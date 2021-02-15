@@ -3,12 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-  <web.servlet>
-    <web.servlet-name>Demo</web.servlet-name>
-    <web.servlet-class>ServletTest.Demo</web.servlet-class>
-  </web.servlet>
-  <web.servlet-mapping>
-    <web.servlet-name>Demo</web.servlet-name>
+  <web.web.servlet>
+    <web.web.servlet-name>Demo</web.web.servlet-name>
+    <web.web.servlet-class>ServletTest.Demo</web.web.servlet-class>
+  </web.web.servlet>
+  <web.web.servlet-mapping>
+    <web.web.servlet-name>Demo</web.web.servlet-name>
     <url-pattern>/Demo</url-pattern>
-  </web.servlet-mapping>
+  </web.web.servlet-mapping>
 </web-app>

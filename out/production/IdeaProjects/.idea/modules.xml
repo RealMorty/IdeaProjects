@@ -11,12 +11,14 @@
       <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MAVEN_demo/MAVEN_demo.iml" filepath="$PROJECT_DIR$/MAVEN_demo/MAVEN_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Response/Response.iml" filepath="$PROJECT_DIR$/Response/Response.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet/Servlet.iml" filepath="$PROJECT_DIR$/Servlet/Servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet_case/Servlet_case.iml" filepath="$PROJECT_DIR$/Servlet_case/Servlet_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleStart/SimpleStart.iml" filepath="$PROJECT_DIR$/SimpleStart/SimpleStart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/jQuery/jQuery.iml" filepath="$PROJECT_DIR$/jQuery/jQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
     </modules>
   </component>
 </project>

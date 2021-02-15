@@ -10,8 +10,8 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/resources" />
           <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -26,47 +26,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://C:/Program Files/apache-tomcat-9.0.41/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/Program Files/apache-tomcat-9.0.41/lib" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.411" level="application_server_libraries" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/druid-1.0.9.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/commons-logging-1.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/mchange-commons-java-0.2.12.jar!/" />
-          <root url="jar://$MODULE_DIR$/../Servlet_case/webapp/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../CheckCodeCase/webapp/WEB-INF/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../CheckCodeCase/webapp/WEB-INF/lib" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.web.servlet:javax.web.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />

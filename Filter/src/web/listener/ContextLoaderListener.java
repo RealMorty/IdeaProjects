@@ -15,7 +15,7 @@ public class ContextLoaderListener implements ServletContextListener, HttpSessio
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        /* This method is called when the servlet context is initialized(when the Web application is deployed). */
+        /* This method is called when the web.servlet context is initialized(when the Web application is deployed). */
         //加载资源文件
         ServletContext servletContext = sce.getServletContext();
         String contextConfigLocation = servletContext.getInitParameter("contextConfigLocation");
@@ -31,7 +31,7 @@ public class ContextLoaderListener implements ServletContextListener, HttpSessio
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        /* This method is called when the servlet Context is undeployed or Application Server shuts down. */
+        /* This method is called when the web.servlet Context is undeployed or Application Server shuts down. */
         System.out.println("ServletContext对象被销毁了...");
     }
 

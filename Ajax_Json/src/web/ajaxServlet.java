@@ -1,6 +1,5 @@
 package web;
 
-import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
@@ -8,7 +7,7 @@ import java.io.IOException;
 @WebServlet("/web.ajaxServlet")
 public class ajaxServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String username = request.getParameter("username");
         try {
             Thread.sleep(5000);
@@ -20,7 +19,7 @@ public class ajaxServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         this.doGet(request, response);
     }
 }
