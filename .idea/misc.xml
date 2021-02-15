@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Filter" />
     <file type="web" url="file://$PROJECT_DIR$/jQuery" />
     <file type="web" url="file://$PROJECT_DIR$/MAVEN_demo" />
+    <file type="web" url="file://$PROJECT_DIR$/MavenTest" />
     <file type="web" url="file://$PROJECT_DIR$/redis" />
     <file type="web" url="file://$PROJECT_DIR$/Response" />
     <file type="web" url="file://$PROJECT_DIR$/Servlet_case" />
@@ -27,7 +28,7 @@
         <option value="$PROJECT_DIR$/Filter/pom.xml" />
         <option value="$PROJECT_DIR$/Ajax_Json/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/MAVEN_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/MavenTest/pom.xml" />
       </list>
     </option>
   </component>

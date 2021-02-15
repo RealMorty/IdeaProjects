@@ -12,7 +12,7 @@
         <module name="Cookies_Session" />
         <module name="Filter" />
         <module name="Servlet_case" />
-        <module name="MAVEN_demo" />
+        <module name="MavenTest" />
         <module name="Ajax_Json" />
         <module name="EL_demo" />
         <module name="redis" />
@@ -28,6 +28,7 @@
       <module name="Filter" target="1.8" />
       <module name="jQuery" target="1.8" />
       <module name="MAVEN_demo" target="1.7" />
+      <module name="MavenTest" target="1.7" />
       <module name="redis" target="1.8" />
       <module name="Response" target="1.8" />
       <module name="Servlet_case" target="1.8" />
