@@ -37,5 +37,15 @@
         <jarDirectory url="file://$MODULE_DIR$/JDBC_Learning/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/TravelTest2/webapp/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/TravelTest2/webapp/WEB-INF/lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -1,12 +1,27 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
-<html>
+<%@ page contentType="text/html; charset=UTF-8" %>
+
 <head>
-  <title>JSP - Hello World</title>
+    <meta charset="UTF-8">
+    <title>省份查询</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            // alert(2)
+            $.get("provinceServlet", {}, function (data) {
+                var province = $("#province");
+                alert(3)
+                $(data).each(function () {
+                    alert(1);
+                    var option = "<option name='"+this.id+"'>"+this.name+"</option>";
+                    province.append(option);
+                });
+            });
+        });
+    </script>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<select id="province">
+    <option>--请选择省份--</option>
+</select>
 </body>
 </html>

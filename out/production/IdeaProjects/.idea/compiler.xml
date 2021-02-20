@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Response" />
+        <module name="TravelTest2" />
         <module name="CheckCodeCase" />
         <module name="EL_JSTL" />
         <module name="Cookies_Session" />
         <module name="Filter" />
         <module name="Servlet_case" />
         <module name="MavenTest" />
+        <module name="TravelTest" />
         <module name="Ajax_Json" />
         <module name="EL_demo" />
         <module name="redis" />
@@ -33,6 +35,8 @@
       <module name="Response" target="1.8" />
       <module name="Servlet_case" target="1.8" />
       <module name="Servlet_Http_Request" target="1.8" />
+      <module name="TravelTest" target="1.8" />
+      <module name="TravelTest2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -17,6 +17,8 @@
       <module fileurl="file://$PROJECT_DIR$/Servlet_case/Servlet_case.iml" filepath="$PROJECT_DIR$/Servlet_case/Servlet_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleStart/SimpleStart.iml" filepath="$PROJECT_DIR$/SimpleStart/SimpleStart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomcat/Tomcat.iml" filepath="$PROJECT_DIR$/Tomcat/Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TravelTest/TravelTest.iml" filepath="$PROJECT_DIR$/TravelTest/TravelTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TravelTest2/TravelTest2.iml" filepath="$PROJECT_DIR$/TravelTest2/TravelTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/jQuery/jQuery.iml" filepath="$PROJECT_DIR$/jQuery/jQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
     </modules>

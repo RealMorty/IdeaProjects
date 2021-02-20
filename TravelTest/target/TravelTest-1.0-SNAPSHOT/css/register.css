@@ -6,7 +6,7 @@
 	overflow: hidden;
 }
 .rg_layout .rg_form{
-	width: 886px;
+	width: 900px;
 	height: 534px;
 	background-color: #fff;
 	margin:24px auto;
@@ -22,14 +22,14 @@
 	box-sizing: border-box;
 }
 .rg_layout .rg_form > .rg_form_center{
-	width:358px;
+	width:400px;
 	float: left;
 	padding-top:10px;
 	box-sizing: border-box;
 	font-size: 14px;
 }
 .rg_layout .rg_form > .rg_form_right{
-	width:256px;
+	width:220px;
 	float: right;
 }
 
@@ -65,6 +65,7 @@
 	border:1px solid #a6a6a6;
 	float: right;
 }
+
 .rg_form > .rg_form_center .td_right.gender{
 	padding-left: 40px;
 	box-sizing: border-box;

@@ -9,6 +9,7 @@ import jedis.util.JedisPoolUtils;
 import redis.clients.jedis.Jedis;
 import service.ProvinceService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ProvinceServiceImpl implements ProvinceService {
@@ -20,11 +21,14 @@ public class ProvinceServiceImpl implements ProvinceService {
 
     @Override
     public String findAllJson() {
+        System.out.println(2);
         Jedis jedis = JedisPoolUtils.getJedis();
+        System.out.println(4);
         String province_json = jedis.get("province");
+        List<Province> ps;
         if (province_json==null || province_json.length()==0) {
             System.out.println("redis doesn't have this data...");
-            List<Province> ps = dao.findAll();
+            ps = dao.findAll();
             ObjectMapper mapper = new ObjectMapper();
             try {
                 String string = mapper.writeValueAsString(ps);
@@ -33,9 +37,7 @@ public class ProvinceServiceImpl implements ProvinceService {
                 e.printStackTrace();
             }
             jedis.close();
-        } else {
-            System.out.println("redis has this data...");
         }
-        return null;
+        return jedis.get("province");
     }
 }

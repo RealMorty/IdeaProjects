@@ -20,8 +20,10 @@ public class provinceServlet extends HttpServlet {
 //        ObjectMapper mapper = new ObjectMapper();
 //        String json = mapper.writeValueAsString(list);
 //        System.out.println(json);
-        ProvinceServiceImpl provinceService = new ProvinceServiceImpl();
+        System.out.println(1);
+        ProvinceService provinceService = new ProvinceServiceImpl();
         String json = provinceService.findAllJson();
+        System.out.println(3);
         System.out.println(json);
         response.setContentType("application/json;charset=utf-8");
         response.getWriter().write(json);
