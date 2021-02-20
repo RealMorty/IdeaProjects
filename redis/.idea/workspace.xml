@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="redis:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf661a13-3708-481f-967a-1789e54e9cc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TravelTest/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TravelTest/.idea/dataSources/38da1ca1-9f19-44f6-9f4a-45a6aada9739.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TravelTest/.idea/dataSources/38da1ca1-9f19-44f6-9f4a-45a6aada9739/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TravelTest/target/classes/dao/DaoImpl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TravelTest/target/classes/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TravelTest/target/classes/service/ServiceImpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TravelTest/target/classes/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/34375635-c997-47cb-9dad-403a7a739c7b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/34375635-c997-47cb-9dad-403a7a739c7b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EL_demo/EL_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../EL_demo/EL_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelTest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelTest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelTest/TravelTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelTest/TravelTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelTest/target/TravelTest-1.0-SNAPSHOT/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelTest/target/TravelTest-1.0-SNAPSHOT/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelTest/target/TravelTest-1.0-SNAPSHOT/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelTest/target/TravelTest-1.0-SNAPSHOT/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TravelTest/target/TravelTest-1.0-SNAPSHOT/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelTest/target/TravelTest-1.0-SNAPSHOT/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jedis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/jedis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jedis/util/JedisPoolUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jedis/util/JedisPoolUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/ProvinceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/servlet/provinceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/servlet/provinceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jedis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jedis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jedis/util/JedisPoolUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jedis/util/JedisPoolUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/ProvinceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/ProvinceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/servlet/provinceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/servlet/provinceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/jedis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/jedis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/jedis/util/JedisPoolUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/jedis/util/JedisPoolUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/service/impl/ProvinceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/service/impl/ProvinceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/web/servlet/provinceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/WEB-INF/classes/web/servlet/provinceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1oZOZ1NhYMs6HoN1O7jroJ5yg8b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30455637" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Morty\IdeaProjects\redis\src\resource" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.411" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/redis/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="redis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/redis" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="24054549-cab7-46ba-93a4-435013095450" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8742" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="redis:war exploded" />
+          <artifact name="redis:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="redis" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.411" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="redis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/redis" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="24054549-cab7-46ba-93a4-435013095450" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8742" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="redis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.redis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf661a13-3708-481f-967a-1789e54e9cc4" name="Default Changelist" comment="" />
+      <created>1613490698513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613490698513</updated>
+      <workItem from="1613490699977" duration="28000" />
+      <workItem from="1613746283984" duration="2477000" />
+      <workItem from="1613749885182" duration="4962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
