@@ -36,7 +36,7 @@
       <module name="Servlet_case" target="1.8" />
       <module name="Servlet_Http_Request" target="1.8" />
       <module name="TravelTest" target="1.8" />
-      <module name="TravelTest2" target="1.8" />
+      <module name="TravelTest2" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

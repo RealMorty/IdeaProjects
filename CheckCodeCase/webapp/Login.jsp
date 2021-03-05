@@ -51,7 +51,7 @@
             img.onclick=function () {
                 //加时间戳永不重复
                 var time = new Date().getTime();
-                img.src = "/CheckCodeCase/CheckCodeServlet?"+time;
+                img.src = "CheckCodeServlet?"+time;
             }
         }
     </script>
@@ -59,7 +59,7 @@
 <body>
     <div class = "col-md-offset-4 col-lg-offset-4col-xl-offset-4">
         <form class="bs-example bs-example-form" data-example-id="simple-input-groups"
-          method="get" action="/CheckCodeCase/Check1">
+          method="get" action="Check1">
         <div class="input-group" id="username">
             <span class="input-group-addon">用户名</span>
             <input type="text" class="form-control" placeholder="用户名" aria-describedby="basic-addon1" name="username">
@@ -79,7 +79,7 @@
                 </td>
                 <td id="before_checkImg"></td>
                 <td id="td_checkImg">
-                    <img id="checkCodeImg" src="/CheckCodeCase/CheckCodeServlet" />
+                    <img id="checkCodeImg" src="CheckCodeServlet" />
                 </td>
             </tr>
         </table>

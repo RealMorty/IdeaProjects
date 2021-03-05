@@ -56,7 +56,7 @@
             </div>
             <div class="search">
                 <input name="" type="text" placeholder="请输入路线名称" class="search_input" autocomplete="off">
-                <a href="javascript:;" class="search-button">搜索</a>
+                <a href="javascript:;" class="search-button" id="search-button">搜索</a>
             </div>
             <div class="hottel">
                 <div class="hot_pic">

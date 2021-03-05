@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    使用Spring来创建对象，别名为Bean-->
+    <!--    <bean id="user" class="pojo.User">-->
+    <!--      <property name="name" value="morty"/>-->
+    <!--    </bean>-->
+    <!--    1.下标赋值-->
+    <!--    <bean id="user" class="pojo.User">-->
+    <!--        <constructor-arg index="0" value="dododo"/>-->
+    <!--    </bean>-->
+    <!--    2.通过类型赋值，假如构造器有两个参数，他们的类型是一样的，那么会造成混淆，因此不建议使用-->
+    <!--    <bean id="user" class="pojo.User">-->
+    <!--        <constructor-arg type="java.lang.String" value="morty"/>-->
+    <!--    </bean>-->
+    <!--    3.通过参数名设置-->
+    <bean id="user" class="pojo.User" name="u1 u2; u3, u4">
+        <constructor-arg name="name" value="morty0"/>
+    </bean>
+
+    <bean id="userT" class="pojo.UserT"/>
+
+
+</beans>

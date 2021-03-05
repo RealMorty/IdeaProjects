@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="CheckCodeCase:war exploded">
-    <output-path>$PROJECT_DIR$/CheckCodeCase/target/CheckCodeCase-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/CheckCodeCase/target/ROOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -13,9 +13,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="CheckCodeCase" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/CheckCodeCase/target/CheckCodeCase-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/CheckCodeCase/target/ROOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="CheckCodeCase/web/Web" />
     </root>

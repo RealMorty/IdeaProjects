@@ -150,7 +150,7 @@
                             <label for="password">密码</label>
                         </td>
                         <td class="td_right">
-                            <%--                            TODO 密码等输入框更改type格式问题--%>
+                            <%--                            DONE 密码等输入框更改type格式问题--%>
                             <input type="text" id="password" name="password" placeholder="请输入密码"
                                    onblur="checkPassword();">
                         </td>

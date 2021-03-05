@@ -39,7 +39,7 @@
     function sec() {
         time--;
         if (time <= 0) {
-            location.href = "http://localhost:8080/CheckCodeCase/Login.html";
+            location.href = "CheckCodeCase/Login.html";
             clearInterval();
         }
         timeId.innerHTML = time;

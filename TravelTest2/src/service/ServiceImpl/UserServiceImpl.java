@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
         user.setStatus("N");
         user.setCode(UuidUtil.getUuid());
         dao.addUser(user);
-        String src = "http://localhost:8080/TravelTest2/user/Active?code=" + user.getCode();
+        String src = "user/Active?code=" + user.getCode();
         MailUtils.sendMail(user.getEmail(), "<html lang=\"zh-CN\">\n" +
                 "<head>\n" +
                 "    <meta charset=\"UTF-8\">\n" +
