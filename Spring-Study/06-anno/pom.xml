@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>01-IOC-test</artifactId>
+    <artifactId>06-anno</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

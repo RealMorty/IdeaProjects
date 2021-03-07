@@ -14,6 +14,8 @@
         <module>03-IOC-createtime</module>
         <module>04-DI</module>
         <module>05-AutoWired</module>
+        <module>06-anno</module>
+        <module>07-appconfig</module>
     </modules>
 
     <properties>

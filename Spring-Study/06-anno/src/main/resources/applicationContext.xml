@@ -8,9 +8,8 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
-    <bean class="pojo.Dog" id="dog122"/>
-    <bean class="pojo.Cat" id="cat12"/>
+    <!--    指定要扫描的包，这个包下的注解就会生效-->
+    <context:component-scan base-package="pojo"/>
 
-    <bean class="pojo.Person" id="person"/>
 
 </beans>
